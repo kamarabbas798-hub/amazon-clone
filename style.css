@@ -230,3 +230,282 @@ ul a{
 .copyright{
     padding-top: 5px;
 }
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+
+/* ---------- TABLET ---------- */
+@media (max-width: 1000px) {
+
+    .navbar{
+        height: auto;
+        min-height: 60px;
+        flex-wrap: wrap;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .nav-search{
+        width: 45%;
+    }
+
+    .nav-address{
+        display: none;
+    }
+
+    .panal-ops{
+        width: 65%;
+    }
+
+    .panal-deals{
+        font-size: 0.8rem;
+    }
+
+    .hero-sec{
+        height: 300px;
+    }
+
+    .hero-msg{
+        width: 90%;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .box{
+        width: 45%;
+        height: 400px;
+    }
+
+    .box-img{
+        height: 320px;
+    }
+
+    .foot-panal2{
+        height: auto;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+    }
+
+    .foot-panal2 ul{
+        width: 40%;
+    }
+}
+
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 600px) {
+
+    /* NAVBAR */
+    .navbar{
+        height: auto;
+        padding: 8px;
+        justify-content: space-evenly;
+    }
+
+    .nav-logo{
+        height: 45px;
+        width: 85px;
+    }
+
+    .logo{
+        height: 45px;
+    }
+
+    .nav-singin,
+    .nav-return{
+        display: none;
+    }
+
+    .nav-cart{
+        font-size: 13px;
+    }
+
+    .nav-cart i{
+        font-size: 25px;
+    }
+
+    /* SEARCH */
+    .nav-search{
+        order: 3;
+        width: 95%;
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .search-input{
+        font-size: 0.9rem;
+    }
+
+    .search-select{
+        width: 45px;
+    }
+
+    .search-icon{
+        width: 45px;
+    }
+
+
+    /* PANEL */
+    .panal{
+        height: auto;
+        min-height: 45px;
+        padding: 8px 5px;
+        justify-content: space-between;
+    }
+
+    .panal-all{
+        font-size: 0.85rem;
+    }
+
+    .panal-ops{
+        width: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 0.75rem;
+    }
+
+    .panal-ops p{
+        margin-left: 8px;
+    }
+
+    .panal-deals{
+        display: none;
+    }
+
+
+    /* HERO */
+    .hero-sec{
+        height: 220px;
+        background-position: center;
+    }
+
+    .hero-msg{
+        width: 94%;
+        height: auto;
+        min-height: 45px;
+        padding: 8px;
+        margin-bottom: 15px;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+
+    /* SHOP SECTION */
+    .shop-sec{
+        padding-bottom: 10px;
+    }
+
+    .box{
+        width: 94%;
+        height: 400px;
+        margin-top: 15px;
+    }
+
+    .box-img{
+        height: 320px;
+    }
+
+
+    /* FOOTER */
+    footer{
+        margin-top: 25px;
+    }
+
+    .foot-panal1{
+        height: 45px;
+    }
+
+    .foot-panal2{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px 10px 30px;
+    }
+
+    .foot-panal2 ul{
+        width: auto;
+        margin-top: 1rem;
+        padding: 0 10px;
+    }
+
+    ul a{
+        font-size: 0.75rem;
+    }
+
+    .foot-panal3{
+        height: 80px;
+    }
+
+    .logo2{
+        height: 55px;
+        width: 100px;
+    }
+
+    .foot-panal4{
+        height: auto;
+        min-height: 90px;
+        padding-bottom: 15px;
+    }
+
+    .pages{
+        padding-top: 20px;
+    }
+
+    .copyright{
+        padding-top: 8px;
+        font-size: 0.65rem;
+    }
+}
+
+
+/* ---------- VERY SMALL MOBILE ---------- */
+@media (max-width: 400px) {
+
+    .nav-logo{
+        width: 75px;
+    }
+
+    .nav-cart i{
+        font-size: 22px;
+    }
+
+    .panal-ops{
+        font-size: 0.7rem;
+    }
+
+    .hero-sec{
+        height: 190px;
+    }
+
+    .hero-msg{
+        font-size: 0.65rem;
+    }
+
+    .box{
+        width: 95%;
+        height: 360px;
+    }
+
+    .box-img{
+        height: 280px;
+    }
+
+    .box-content h2{
+        font-size: 1.2rem;
+    }
+
+    .foot-panal2{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .foot-panal2 ul{
+        padding: 0 5px;
+    }
+
+    ul a{
+        font-size: 0.7rem;
+    }
+}
+
